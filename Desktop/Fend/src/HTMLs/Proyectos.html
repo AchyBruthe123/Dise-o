@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootstrap-5.2.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../CSSs/Froms.css">
+  <link rel="stylesheet" href="../CSSs/Header.css">
+  <title>Customers</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div id="header-placeholder"></div>
+  <main class="main-content">
+    <form class="mt-5" action="/submit" method="post">
+      <h2>Registro de Proyecto</h2>
+
+      <label for="P.nombre">Nombre:</label>
+      <input type="text" id="P.nombre" name="nombre" required>
+      <br><br>
+
+      <label for="P.abreviatura">Abreviatura:</label>
+      <input type="text" id="P.abreviatura" name="apellidos" required>
+      <br><br>
+
+      <label for="P.descripción">Descripción:</label>
+      <input type="text" id="P.descripción" name="descripción" required>
+      <br><br>
+
+      <label for="P.categoria">Categoría:</label>
+      <select id="P.categoria" name="categoria" required>
+        <option value="">Selecciona una opción</option>
+      </select>
+      <br><br>
+
+      <label for="P.cliente">Cliente:</label>
+      <select id="P.cliente" name="cliente" required>
+        <option value="">Selecciona una opción</option>
+      </select>
+      <br><br>
+
+      <a href="Lista_Proyectos.html" class="nav-link">Registrar</a>
+
+    </form>
+  </main>
+</div>
+<script src="/JS/loadHeader.js"></script>
+</body>
+</html>
