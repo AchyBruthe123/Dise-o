@@ -116,4 +116,24 @@ select {
     color: white !important;
 }
 
+.mod {
+    display: inline-block; /* Activar flexbox */
+    text-align: center; /* Centrar horizontalmente */
+    width: 100%;
+    padding: 10px;
+    background-color: #8527c383;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mod:hover {
+    background-color: #8527c3fd !important;
+    color: white !important;
+}
+
 
